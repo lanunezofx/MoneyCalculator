@@ -1,2 +1,2 @@
 # MoneyCalculator
-Count your money on hand without doing the computation. Let me handle that. A small project made with HTML, CSS, Bootstrap, and Javascript.
+Count your money on hand without doing the computation. Let me handle that. A small project made with HTML, CSS, Bootstrap, and Javascript.  Funny thing was, it started as a python program with just a few lines. I have a bunch of bank notes on hand that needs to be brought to the bank. I don't want to compute how much in total it was. Now I have a python program, a webpage that calculates how much money you have (may or may not be on-hand), and a new small project.   
