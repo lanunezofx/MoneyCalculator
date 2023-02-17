@@ -46,6 +46,10 @@
                 min-height: 75vh;
             }
 
+            .min-vh-50{
+                min-height: 50vh;
+            }
+
             .border-spurple{
                 border: 1px solid #8055FA;
                 border-radius: 25px;
@@ -160,56 +164,56 @@
 
                     <div class="row m-3 h6-color">
                         <h5>Fill out the number of pieces for each denomination.</h5>
-                        <fp>Fields only accepts whole number </fp>
+                        <fp>Fields only accept whole number </fp>
                     </div>
 
                     <div class="row m-3">
                         <div class="col-md-3 col-sm-4 col-xs-1 p-3">
-                            <h6 class="h6-color"><label>1,000</label></h6>
+                            <h6 class="h6-color"><label>₱ 1,000</label></h6>
                             <input type="number" id="d0" value="0" min="0" autocomplete="off" pattern="[0-9]" step="1">
                         </div>
                         <div class="col-md-3 col-sm-4 col-xs-1 p-3">
-                            <h6 class="h6-color"><label>500</label></h6>
+                            <h6 class="h6-color"><label>₱ 500</label></h6>
                            <input type="number" id="d1" value="0" min="0" autocomplete="off" pattern="[0-9]" step="1">
                         </div>
                         <div class="col-md-3 col-sm-4 col-xs-1 p-3">
-                            <h6 class="h6-color"><label>200</label></h6>
+                            <h6 class="h6-color"><label>₱  200</label></h6>
                             <input type="number" id="d2" value="0" min="0" autocomplete="off" pattern="[0-9]" step="1">
                         </div>
                         <div class="col-md-3 col-sm-4 col-xs-1 p-3">
-                            <h6 class="h6-color"><label>100</label></h6>
+                            <h6 class="h6-color"><label>₱ 100</label></h6>
                             <input type="number" id="d3" value="0" min="0" autocomplete="off" pattern="[0-9]" step="1">
                         </div>
                         <div class="col-md-3 col-sm-4 col-xs-1 p-3">
-                            <h6 class="h6-color"><label>50</label></h6>
+                            <h6 class="h6-color"><label>₱ 50</label></h6>
                             <input type="number" id="d4" value="0" min="0" autocomplete="off" pattern="[0-9]" step="1">
                         </div>
                         <div class="col-md-3 col-sm-4 col-xs-1 p-3">
-                            <h6 class="h6-color"><label>20</label></h6>
+                            <h6 class="h6-color"><label>₱ 20</label></h6>
                             <input type="number" id="d5" value="0" min="0" autocomplete="off" pattern="[0-9]" step="1">
                         </div>
                         <div class="col-md-3 col-sm-4 col-xs-1 p-3">
-                            <h6 class="h6-color"><label>10</label></h6>
+                            <h6 class="h6-color"><label>₱ 10</label></h6>
                             <input type="number" id="d6" value="0" min="0" autocomplete="off" pattern="[0-9]" step="1">
                         </div>
                         <div class="col-md-3 col-sm-4 col-xs-1 p-3">
-                            <h6 class="h6-color"><label>5</label></h6>
+                            <h6 class="h6-color"><label>₱ 5</label></h6>
                             <input type="number" id="d7" value="0" min="0" autocomplete="off" pattern="[0-9]" step="1">
                         </div>
                         <div class="col-md-3 col-sm-4 col-xs-1 p-3">
-                            <h6 class="h6-color"><label>1</label></h6>
+                            <h6 class="h6-color"><label>₱ 1</label></h6>
                             <input type="number" id="d8" value="0" min="0" autocomplete="off" pattern="[0-9]" step="1">
                         </div>
                         <div class="col-md-3 col-sm-4 col-xs-1 p-3">
-                            <h6 class="h6-color"><label>0.25</label></h6>
+                            <h6 class="h6-color"><label>₱ 0.25</label></h6>
                             <input type="number" id="d9" value="0" min="0" autocomplete="off" pattern="[0-9]" step="1">
                         </div>
                         <div class="col-md-3 col-sm-4 col-xs-1 p-3">
-                            <h6 class="h6-color">0.10</h6>
+                            <h6 class="h6-color">₱ 0.10</h6>
                             <input type="number" id="d10" value="0" min="0" autocomplete="off" pattern="[0-9]" step="1">
                         </div>
                         <div class="col-md-3 col-sm-4 col-xs-1 p-3">
-                            <h6 class="h6-color"><label>0.05</label></h6>
+                            <h6 class="h6-color"><label>₱ 0.05</label></h6>
                             <input type="number" id="d11" value="0" min="0" autocomplete="off" pattern="[0-9]" step="1">
                         </div>
                     </div>
@@ -221,8 +225,8 @@
                     </div>
                     
                     <div class="row m-3 h6-color" >
-                        <div class="m-1 center-texts border-dyellow" style="width: 100%;">
-                            <h2 class="h5-color"><label id="label-result">Php 00.00</label></h2>
+                        <div class="m-1 center-texts border-dyellow p-3" style="width: 100%;">
+                            <h2 class="h5-color"><label id="label-result">₱ 00.00</label></h2>
                         </div>
                     </div>
 
@@ -308,7 +312,7 @@
             }
             else
             {
-                show("Php " + total.toLocaleString("en-US"));
+                show("₱ " + total.toLocaleString("en-US"));
                 //show(total);
             }
         }
